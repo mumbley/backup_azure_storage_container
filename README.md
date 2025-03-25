@@ -1,4 +1,7 @@
 # Blob Archiver
+*** Note ***
+Due to features in the Azure SDK, this code was replaced by the Golang version [in one of my other repos](https://github.com/mumbley/asma-async)
+This works well enough but, in the particular case this was written to solve (6m files of various sizes, some < 1KB, the facilities provided by the Azure SDK, along with some deliberate throttling, mean that something else was required. There is some information in the other repo's README.md
 
 The **Blob Archiver** Python class provides tools to manage Azure Blob Storage containers:
 - Archive blobs from an Azure container into a tar file (with optional compression).
